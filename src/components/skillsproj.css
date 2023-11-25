@@ -1,0 +1,116 @@
+#skills,#projects{
+    width: 100%;
+    height: max-content;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 10px;transition: all 0.5s;
+    padding-left: 10vw;
+}
+
+.skillbox{
+    width: 90px;
+    height: 90px;
+    background-color: rgba(240, 248, 255, 0.901);
+    background-size:contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    margin: 3vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillbox img{
+    width: 60px;
+    
+}
+
+.h1{
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 0;
+}
+#skills,#projects p{
+    color: white;
+    text-align: justify;
+}
+#projects p{
+    width: 50%;
+}
+
+
+.projbox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 330px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.171);
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 62, 119, 0.593);
+    padding: 10px !important;
+}
+
+.projbox img{
+    width: 100%;
+    border-radius: 20px;
+    height: 30%;
+    overflow: hidden;
+}
+
+.projbox h1{
+    width: 100%;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+
+.projbox p{
+    color: rgba(240, 248, 255, 0.853) !important;
+    width: 100% !important;
+    font-size: 14px;
+}
+
+.projbox .links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.links .live{
+    background-color: rgb(0, 38, 255);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.repo{
+    background-color: rgba(255, 0, 0, 0.541);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.tags{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+
+@media screen and (max-width:662px) {
+    #projects,#skills{
+        width: 90% !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #projects p{
+        width: 90%;
+    }
+    #projects .skillcontain{
+        width: 100% !important;
+    }
+  }
