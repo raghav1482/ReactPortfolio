@@ -6,7 +6,7 @@ import proj3 from "../images/proj3.png";
 export default function Projects(){
 
     const myproj=[
-        [proj1,'Ennnexus:2k23','https://github.com/raghav1482/Ennexus-2023','https://cesennexus2k23.netlify.app/','The Ennexus official website offers a Winners Section spotlighting excellence and event triumphs. Allows us to dive into detailed accounts of all events, gaining insights into each immersive experience. Navigate effortlessly through a user-friendly interface designed to enhance your exploration of innovation and celebration',['#react',' #bootstrap']] , 
+        [proj1,'ChatIt:MERN Chat APP','Chat It is a feature-rich chat application that provides a dynamic and interactive platform for real-time communication. Leveraging a robust technology stack, including Express, MongoDB, React, and Socket.io',['#MongoDB',' #react',' #Express',' #bootstrap',' #Socket.io' , '#JWT']] , 
         [proj2,'MovieAdda','https://github.com/raghav1482/MvADDA','https://movieadda-tan.vercel.app/',"Movie Adda, a MERN stack project, offers a seamless platform for users to explore, organize, and curate their favorite movies. Login, access detailed movie information from an external API, and effortlessly manage your film collection.","#reactjs #nodejs #expressjs #mongoDB #bcryptjs"]  ,
          [proj3,'Text Utils','https://github.com/raghav1482/TEXTUTILS_','https://textutilsraghav.netlify.app/',"I've developed a user-friendly tool allowing you to effortlessly edit text. Paste your content and explore features like case conversion, binary transformation, and more.","#react #bootstrap"],];
 
