@@ -17,7 +17,7 @@ export default function Home(){
         <div class="head">
             <h1>Hi ! There</h1>
             <p style={{textAlign:"justify"}}>I'm Raghvendra ,<br/>MERN Stack Developer</p>
-            <h2><a href="https://drive.google.com/file/d/1yw86hWhasVtaEzwJH071dhRJZzSznME9/view?usp=sharing">Resume</a></h2>
+            <h2><a href="https://drive.google.com/file/d/1u6N3BY2rUM3Oj-6meyJY5lg_92Vk0-ky/view?usp=sharing">Resume</a></h2>
         </div>
     </div>
     <div id="me"><img src={me}/></div>
